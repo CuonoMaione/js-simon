@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+main{
+    text-align: center;
+    background-color: black;
+    height: 100vh;
+    overflow: hidden;
+}
+
+section{
+    display: flex;
+    max-width: 800px;
+    margin: 10rem auto;
+    background-color: aquamarine;
+    height: 400px;
+    border: 20px solid salmon;
+    border-radius: 20px;
+}
+
+
+div#counter{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 2.35rem;
+    text-align: center;
+}
+
+p.counter-digits{
+    font-size: 4rem;
+}
